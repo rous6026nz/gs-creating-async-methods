@@ -5,6 +5,6 @@ The focus is on the asynchronous part, a feature often used when scaling service
 
 ## Environment Set-up
 
-*A text editor or IDE
-*[JDK 1.8](https://www.oracle.com/technetwork/java/javase/downloads/index.html) or later
-*[Maven 3.2+](https://maven.apache.org/download.cgi)
+* A text editor or IDE
+* [JDK 1.8](https://www.oracle.com/technetwork/java/javase/downloads/index.html) or later
+* [Maven 3.2+](https://maven.apache.org/download.cgi)
