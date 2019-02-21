@@ -26,14 +26,15 @@ import java.util.concurrent.Executor;
 /**
  * @EnableAsync Annotation:
  * Enables Spring's asynchronous method execution 
- * capability, similar to functionality found 
- * in Spring's <task:*> XML namespace.
+ * capability, allowing Spring to run @Async
+ * method in the background thresd pool.
+ * 
  */
 @EnableAsync
 public class Application {
     public static void main(String[] args) {
         // Close application context to shut down the custom ExecutorService.
-        SpringBootApplication.run(Application.class, args).close();
+        SpringApplication.run(Application.class, args).close();
     }
 
     /**
